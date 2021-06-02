@@ -1,4 +1,4 @@
-package hello
+package libraryManagement
 
 import com.amazonaws.services.lambda.runtime.{Context, RequestHandler}
 import org.apache.logging.log4j.{LogManager, Logger}

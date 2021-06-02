@@ -1,7 +1,7 @@
 import sbtassembly.Log4j2MergeStrategy
 import sbtrelease.Version
 
-name := "hello"
+name := "libraryManagement"
 
 resolvers += Resolver.sonatypeRepo("public")
 scalaVersion := "2.13.1"
