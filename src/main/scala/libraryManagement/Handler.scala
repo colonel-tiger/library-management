@@ -19,8 +19,6 @@ class ApiGatewayHandler extends RequestHandler[Request, ApiGatewayResponse] {
 
   def handleRequest(input: Request, context: Context): ApiGatewayResponse = {
     val headers = Map("x-custom-response-header" -> "my custom response header value")
-    ApiGatewayResponse(200, "Go Serverless v1.0! Your function executed successfully!",
-      headers.asJava,
-      true)
+    ApiGatewayResponse(200, "Go Serverless v1.0! Your function executed successfully!", headers.asJava, true)
   }
 }
